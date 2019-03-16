@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MediaRecordActivity">
+    tools:context=".recorder.MediaRecordActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,28 +12,23 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_start"
+            android:id="@+id/btn_start_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="start" />
 
         <Button
-            android:id="@+id/btn_stop"
+            android:id="@+id/btn_stop_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="stop" />
 
         <Button
-            android:id="@+id/btn_pause"
+            android:id="@+id/btn_play_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pause" />
+            android:text="play" />
 
-        <Button
-            android:id="@+id/btn_resume"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="resume" />
 
     </LinearLayout>
 

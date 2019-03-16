@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MediaRecordActivity"></activity>
+        <activity android:name=".recorder.MediaRecordActivity" />
+        <activity android:name=".recorder.MediaPlayActivity"></activity>
     </application>
 
 </manifest>
